@@ -21,6 +21,15 @@ public class Registro {
     private String email;
     private String seleccion;
 
+    public Registro(String email, String seleccion) {
+        this.email = email;
+        this.seleccion = seleccion;
+    }
+
+    public Registro() {
+
+    }
+
     public Long getId() {
         return id;
     }

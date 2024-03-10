@@ -10,10 +10,11 @@ import java.util.List;
 import java.util.Optional;
 
 @Service
-public class RegistroServieImpl implements RegistroService {
+public class RegistroServiceImpl implements RegistroService {
 
     @Autowired
     private RegistroRepository repository;
+
 
     @Override
     public List<Registro> resultado(){
